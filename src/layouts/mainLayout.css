@@ -1,0 +1,20 @@
+header {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 5rem;
+
+  position: sticky;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+header img {
+  height: 3rem;
+}
+header h1 {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
