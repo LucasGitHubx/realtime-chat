@@ -4,12 +4,13 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
+import MainLayout from "./layouts/MainLayout";
 
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/realtime-chat/">
-        <Route index element={<h1>hola</h1>} />
+      <Route path="/realtime-chat/" element={<MainLayout />}>
+        <Route index />
       </Route>
     )
   );
