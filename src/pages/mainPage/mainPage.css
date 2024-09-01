@@ -1,0 +1,16 @@
+h1.benvenutti {
+  text-align: center;
+}
+article.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+article.main-text p {
+  color: rgb(64, 120, 241);
+  transition: 0.3s;
+}
+.main-text p:active {
+  color: blue;
+}
