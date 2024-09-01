@@ -1,0 +1,77 @@
+.login {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.login h1 {
+  text-align: center;
+}
+.login form {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form label {
+  font-size: 1.1rem;
+  position: relative;
+  top: 0.8rem;
+}
+form label.error {
+  color: red;
+}
+form input {
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.5s;
+}
+form input:focus {
+  border: 1px solid black;
+}
+form button {
+  cursor: pointer;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(64, 120, 241);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+form button:hover {
+  opacity: 0.8;
+}
+form button:active {
+  opacity: 0.6;
+}
+.login .info {
+  padding-top: 2rem;
+  width: fit-content;
+  margin: 0 auto;
+
+  font-size: 1.1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.info p.mode {
+  cursor: pointer;
+  color: rgb(64, 120, 241);
+
+  transition: 0.3s;
+}
+p.mode:hover {
+  color: blue;
+}
